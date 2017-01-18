@@ -15,7 +15,7 @@ sudo pip install bottle requests validate_email
 ```
 
 # Running locally:
-Set an environment variable to specify mailer provider 'sendgrid' or 'mailgun'. defaults to 'sendgrid'
+Set an environment variable 'MAIL_PROVIDER' to specify mailer provider 'sendgrid' or 'mailgun'. defaults to 'sendgrid'
 run `./server.py` to start the server (may need to `chmod +x server.py`)
 
 post json requests to [http://localhost:8080/email]()
